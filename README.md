@@ -15,3 +15,4 @@
    *** Technology used ( next js , typescript , redux, html , css )
   1. npm i.
   2. Check the .env.local if needed. by default it will work if you dont change the backend env
+  3. remane the file env.local.example to env.local
