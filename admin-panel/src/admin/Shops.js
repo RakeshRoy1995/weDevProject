@@ -40,7 +40,7 @@ function Shops() {
         }).then((result) => {
         if (result.value) {
 
-            axios.delete('tags/'+id+'?type=tags', {
+            axios.delete('product/'+id+'?type=products', {
                 id:id
                 })
                 .then(function (response) {

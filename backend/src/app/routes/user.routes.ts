@@ -20,5 +20,6 @@ router.post("/shop-create", MuiltiPartyMiddleware,  admin.create);
 router.get("/get-all-shop", admin.findAll);
 router.get("/product/:id", admin.findOne);
 router.put("/product/:id", MuiltiPartyMiddleware, admin.update);
+router.delete("/product/:id", admin.delete);
 
 export = router;

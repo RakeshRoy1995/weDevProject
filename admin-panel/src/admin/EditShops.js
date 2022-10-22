@@ -66,8 +66,15 @@ function EditShops() {
 
     const selectPart = (data, value)=>{
         let x = []
-        x = [...data , value]
-        setdataTag({ ...dataTag , ['tags'] : x })
+
+        if (data) {
+            x = [...data , value]
+            setdataTag({ ...dataTag , ['tags'] : x })
+        }else{
+            x = [value]
+            setdataTag({ ...dataTag , ['tags'] : x })
+        }
+        
     }
     
 
