@@ -1,1 +1,0 @@
-# You can change the BACKEND_URL according to backend project. This url works as baseURL to axios for http request

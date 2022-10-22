@@ -55,6 +55,9 @@ Admin.login = async(type:any,data:any, result: (arg0: any, arg1: any) => void ) 
 
   // result(null, data);
   let res = await MongoDb.doRequest("shop", "users")
+
+  console.log("data" , data);
+  
   res.find({ email: data.email, password: data.password }).toArray(function (error:Response, resolve:any) {
       if (error) {
         result(1, error);

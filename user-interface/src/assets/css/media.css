@@ -1,0 +1,3110 @@
+/* ========== Leptop Part ========== */
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+  .PhoneInputInput {
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .r_creat-team .team-ul-1st ul li button#dropdown-basic {
+    padding: 15px 0 15px 15px;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .react-calendar {
+    width: 100%;
+  }
+  .dboard_width {
+    width: calc(100% - 112px);
+  }
+  .dboard_widthHeader {
+    width: calc(100% - 72px);
+  }
+  .navbar .navbar-brand img {
+    height: 26px;
+    width: auto;
+  }
+  .btn_manage {
+    padding: 9px 19px;
+  }
+  .slider-item {
+    margin: 10px;
+  }
+  .department-profile {
+    margin-bottom: 30px;
+  }
+  span.cal_contact img {
+    height: 15px;
+    width: auto;
+    margin-bottom: 1px;
+  }
+  .member_box .slick-list.draggable {
+    padding: 0;
+  }
+  ul.userNav ul.dropdown-menu {
+    top: 48px;
+    width: 230px;
+  }
+  .modal-content.profile_view .modal-header {
+    width: 825px;
+    padding-right: 0px;
+  }
+  .askTalent {
+    border-radius: 15px;
+  }
+  .user_infos .notification .dropdown a svg {
+    height: 15px;
+    width: auto;
+  }
+  #r_view_ur_team .fixedSidebar {
+    height: calc(100% - 226px);
+  }
+  #r_view_ur_team .cost-item {
+    padding: 0 14px 28px;
+  }
+  #r_view_ur_team .fixedSidebar .cost_value {
+    overflow: auto;
+    height: calc(100% - 205px);
+  }
+  #r_view_ur_team .monthly_cost {
+    width: calc(100% - 14px);
+    max-width: 257px;
+  }
+  a.dropdown-toggle img {
+    height: 32px;
+    width: auto;
+  }
+  ul.userNav ul.dropdown-menu li a {
+    font-size: 13px;
+  }
+  #progress_form .previous-step,
+  .next-step {
+    font-size: 13px;
+  }
+  a.dropdown-toggle {
+    font-size: 13px;
+  }
+  span.cal_contact {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  a.dropdown-toggle svg {
+    margin-left: 8px;
+    height: 7px;
+    width: auto;
+  }
+  a.aCall {
+    padding: 8px 14px;
+    border-radius: 7px;
+  }
+  a.aCall {
+    margin-right: 35px;
+  }
+  ul.notification {
+    margin-bottom: 0;
+    margin-right: 35px;
+  }
+  .cost-item h3 span svg {
+    height: 15px;
+    width: auto;
+  }
+  .r_creat-team {
+    width: 234px;
+  }
+  a {
+    font-size: 14px;
+  }
+  .monthly_cost {
+    width: calc(100% - 14px);
+    max-width: 266px;
+    border-radius: 12px;
+  }
+  .fixedSidebar .cost_value {
+    overflow: auto;
+    height: calc(100% - 245px);
+  }
+  .fixedSidebar {
+    overflow: inherit;
+    height: calc(100% - 125px);
+  }
+  #progressbar li {
+    font-size: 13px;
+  }
+  .your-team-name {
+    padding: 30px 28px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+  }
+  .profile-text.review_team {
+    margin-top: 0px;
+  }
+  .department-profile .text_team {
+    margin-top: 8px;
+  }
+  .profile-item.p_width img {
+    height: 95px !important;
+    width: auto;
+  }
+  .calenderDateView span.dateView {
+    font-size: 18px;
+  }
+  .calenderDateView label {
+    padding-bottom: 0px;
+  }
+  .Team_L_creat_team {
+    border-radius: 15px;
+    padding: 30px 0;
+  }
+  .Team_Listing {
+    margin-bottom: 15px;
+  }
+  button.btn.btn-meetin_schedule {
+    padding: 8px 10px;
+    height: 40px;
+  }
+  .Expertise.owl-carousel .owl-item {
+    border-radius: 8px;
+  }
+  .costItem_Calculator h4.user_exp {
+    font-size: 14px;
+  }
+  .r_creat-team {
+    border-radius: 15px;
+  }
+  .team_name h1 {
+    font-size: 25px;
+  }
+  .btn_manage a {
+    font-size: 13px;
+  }
+  .no_member_box-item {
+    margin-right: 30px;
+  }
+  .no_member_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .r-department-part .depart-ul ul li {
+    padding-right: 17px;
+  }
+  p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+  }
+  .no_member_box-item p {
+    padding: 77px 0;
+  }
+  .Expertise.owl-carousel .owl-nav .owl-prev {
+    bottom: 38px;
+    left: -8px;
+  }
+  .Expertise.owl-carousel .owl-nav .owl-next {
+    right: -8px;
+    bottom: 38px;
+  }
+  .right_content.review_team_u .your-team-name {
+    padding-bottom: 28px;
+  }
+  .no_member_box_cost p {
+    padding: 42px 30px;
+    padding-bottom: 8px;
+  }
+  .no_member_box_cost span {
+    font-size: 25px;
+  }
+  .depart-ul .item_serch .form-control::placeholder {
+    font-size: 14px;
+  }
+  .r-department-part .depart-ul ul .btn.dropdown-toggle {
+    height: 41px;
+    line-height: 17px;
+  }
+  .manageTeam,
+  .manageCost_calculator {
+    width: calc(100% - 317px);
+  }
+  .cost_calculetor {
+    width: 287px;
+  }
+  .depart-ul .item_serch {
+    height: 41px;
+    left: 31.3%;
+    margin-top: 0;
+  }
+  .teamSupporting_view {
+    padding: 20px 20px;
+    border-radius: 15px;
+  }
+  .resume_view {
+    padding: 50px 80px 50px 55px;
+  }
+  .r-department-part .depart-ul ul .right {
+    padding-top: 10px;
+  }
+  .r-department-part .depart-ul ul .right.available {
+    padding-top: 10px;
+  }
+  .r-department-part .item_serch img {
+    height: 15px;
+    width: auto;
+  }
+  .department-profile .profile-text h3 {
+    font-size: 14px;
+  }
+  .deprt-available a {
+    font-size: 12px;
+  }
+  .department-profile .profile-text p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .department-profile p.details {
+    padding-top: 15px;
+    line-height: 26px;
+    width: 100%;
+  }
+  .department-profile {
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 35px;
+  }
+  .r_departments.Ask_telens .department-profile {
+    padding: 20px;
+    padding-top: 25px;
+  }
+  .Expertise.owl-carousel .owl-item {
+    font-size: 12px;
+  }
+  .calenderDateView.padding {
+    padding: 62px 0;
+  }
+  .r_departments.Ask_telens .deprt-available {
+    right: 30px;
+    top: 37px;
+  }
+  .your-team-name {
+    margin-bottom: 28px;
+  }
+  .department-profile .profile-text-dp {
+    padding-top: 30px;
+    padding-right: 40px;
+  }
+  .resume-part-flex a {
+    font-size: 13px;
+  }
+  .resume-part-flex a svg {
+    height: 17px;
+    width: auto;
+  }
+  .resume-part-flex .view-resume a {
+    padding: 11px 20px;
+  }
+  .resume-part-flex .add-team a svg {
+    height: 13px;
+    width: auto;
+    margin-bottom: 1px;
+  }
+  .resume-part-flex .add-team a {
+    padding: 11px 20px;
+  }
+  .contactInfo {
+    padding-bottom: 25px;
+    border-radius: 15px;
+  }
+  .meeting_requirement h3 {
+    font-size: 25px;
+  }
+  .meeting_requirement p {
+    font-size: 14px !important;
+    line-height: 26px !important;
+  }
+  .contactInfo label {
+    font-size: 12px;
+  }
+  .select-selected {
+    font-size: 14px;
+  }
+  .contactInfo .form-control::placeholder {
+    font-size: 14px;
+  }
+  button.btn.btn-submit {
+    font-weight: 600;
+    height: 46px;
+    min-width: 150px;
+    font-size: 14px;
+  }
+  .no_member_box .member_box {
+    margin: 0 10px;
+  }
+  .no_member_box-item {
+    height: 180px;
+  }
+  eam_Listing.padding {
+    margin-top: 30px;
+  }
+  .fixedSidebar {
+    width: 287px;
+    padding: 29px 11px 11px;
+    padding-bottom: 9px;
+    border-radius: 15px;
+  }
+  .askTalent {
+    padding-bottom: 30px;
+  }
+  .r_creat-team {
+    height: calc(100% - 128px);
+  }
+  .r_departments {
+    padding-top: 30px;
+  }
+  .costItem_Calculator {
+    height: 65px;
+  }
+  .no_member_box_cost {
+    height: 180px;
+    width: 190px;
+    border-radius: 15px;
+  }
+  .no_member_box-item {
+    width: calc(100% - 220px);
+  }
+  .r_departments .dropdown-menu .dropdown-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+  .r-department-part .depart-ul ul li .dropdown-menu {
+    padding: 25px 20px;
+  }
+  .slider-item {
+    padding: 20px 14px;
+  }
+  button.btn.btn-addTeam {
+    height: 41px;
+  }
+  .inner-add_remove {
+    padding: 5px 15px;
+  }
+  .accordion__item__header::before {
+    border-right: 2px solid #bbbbbb;
+    border-bottom: 2px solid #bbbbbb;
+  }
+  .item_serch {
+    height: 41px;
+    border-radius: 8px;
+    margin-top: 5px;
+  }
+  .selectItem .sortItemselect {
+    padding: 0 2px;
+    height: 41px;
+    padding-right: 10px;
+  }
+  .department-profile .profile-text label {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .editTalentView {
+    padding: 35px 40px;
+    right: 103px;
+    width: 824px;
+  }
+  .request_talent .form-group {
+    margin-bottom: 20px;
+  }
+  .resume_view {
+    max-width: 1000px;
+  }
+  .no_member_box-item .next {
+    width: 100px;
+    height: 150px;
+    background: linear-gradient(
+      270deg,
+      #ffffff 36.98%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    text-align: right;
+    line-height: 140px;
+    right: 10px;
+  }
+  .no_member_box-item .next svg {
+    height: 18px;
+    width: auto;
+  }
+  .no_member_box-item .slider-item img {
+    height: 57px;
+    width: auto;
+  }
+  .member_box.slick-slider h3 {
+    font-size: 13px;
+  }
+  .member_box.slick-slider p {
+    font-size: 13px;
+  }
+  .teamHier_top h1 {
+    font-size: 25px;
+  }
+  .teamTypeSelect label {
+    font-size: 14px;
+  }
+  .teamTypeSelect ul li a {
+    line-height: 25px;
+    padding: 30px 40px;
+  }
+  .teamSupporting h2 {
+    font-size: 14px;
+  }
+  .manageCost_calculator .teamSupporting_view_member img {
+    height: 75px;
+    width: auto;
+  }
+  .teamSupporting_view .teamSupporting_view_member p {
+    font-size: 12px;
+    margin: 0;
+  }
+  .teamSupporting_view_member a {
+    font-size: 11px;
+  }
+  .selectItem label {
+    font-size: 14px;
+  }
+  .selectItem .sortItemselect select.form-control {
+    font-size: 14px;
+  }
+  .item_serch input::placeholder {
+    font-size: 14px;
+  }
+  .item_serch img {
+    height: 15px;
+    width: auto;
+  }
+  .accordion__item__header {
+    font-size: 16px;
+    padding: 18px 0;
+  }
+  .accordion__item:last-child .accordion__item__header {
+    padding-bottom: 20px;
+  }
+  .costItem_Calculator h3.user_posi {
+    font-size: 14px;
+  }
+  button.btn.btn-addTeam {
+    font-size: 13px;
+  }
+  .talent-part-flex {
+    margin-top: -20px;
+  }
+  .accordion__item__header::before {
+    height: 10px;
+    width: 10px;
+  }
+  .cost_calculetor h4 {
+    font-size: 16px;
+  }
+  .cost_value .cost-item h3 {
+    font-size: 14px;
+  }
+  .cost-item p {
+    font-size: 14px;
+  }
+  .cost_calculetor h4 {
+    font-size: 15px;
+    padding: 0 14px 23px;
+  }
+  .cost-item h3 {
+    padding-bottom: 0;
+  }
+  .manage_cost .cost-item {
+    padding-bottom: 22px;
+  }
+  .monthly_cost {
+    /* margin-top: 20px; */
+    padding: 25px 18px;
+  }
+
+  .monthly_cost h4 {
+    padding: 0 0px 10px;
+    padding-left: 0px;
+    margin: 0;
+  }
+  .navbar {
+    padding: 15px 22px;
+  }
+  .monthly_item {
+    padding-bottom: 20px;
+  }
+  .monthly_cost p {
+    font-size: 13px;
+  }
+  .askTalent h2.askTalent_title {
+    font-size: 25px;
+  }
+  button.btn.btn-meetin_schedule {
+    font-size: 12px;
+  }
+  .modal-content.profile_view .modal-body {
+    padding: 110px 50px 30px;
+  }
+  .viewUserDiv h1 {
+    margin-bottom: 30px;
+  }
+  .viewUserDiv {
+    margin-bottom: 45px;
+  }
+  .modal-content.profile_view .user_profile h2 {
+    margin-bottom: 20px;
+  }
+  .companyProfile,
+  .companyProfileInfo,
+  .companyProfilepassChange {
+    margin-bottom: 20px;
+  }
+  .modal-content.profile_view .form-group {
+    margin-bottom: 25px;
+    float: left;
+    width: 100%;
+  }
+  .askTalent p.askTalent_tagLine {
+    font-size: 14px;
+    line-height: 27px;
+  }
+  .r_creat-team .team-ul-1st ul li a {
+    padding: 13px 0;
+    padding-left: 15px;
+  }
+  .r_departments.padb .department-profile {
+    padding-bottom: 20px;
+  }
+  .askTalent label {
+    font-size: 13px;
+  }
+  .team-ul-1st .dropdown-menu .dropdown-item {
+    font-size: 14px;
+  }
+  .costCalculator_pagination ul li a {
+    font-size: 12px;
+  }
+  .askTalentagain p {
+    font-size: 16px;
+  }
+  button.btn.btn-talentAgain {
+    font-size: 13px;
+  }
+  .askTalentagain svg {
+    height: 100px;
+    width: auto;
+  }
+  .submitRequisitionInfo label {
+    font-size: 12px;
+  }
+  .submitRequisitionInfo .form-control::placeholder {
+    font-size: 14px;
+  }
+  .info_form h2 {
+    font-size: 18px;
+  }
+  .expectedStartingDate h3 {
+    font-size: 18px;
+  }
+  .expectedStartingDate p {
+    font-size: 14px;
+    line-height: 28px;
+    max-width: 410px;
+  }
+  .calenderDateView {
+    height: 178px;
+    margin-top: 15px;
+    padding: 83px 0;
+    font-size: 14px;
+  }
+  .expectedStartingDate img {
+    width: 100%;
+    margin-top: 8px;
+  }
+  .team_listing_header .New_team {
+    font-size: 13px;
+  }
+  .t_listing_r .logo img {
+    width: 90%;
+  }
+  .listing_text h4 {
+    padding-bottom: 0px;
+    padding-top: 2px;
+  }
+  .t_listing_l .l_text h3 {
+    margin-bottom: 6px;
+    margin-top: 6px;
+  }
+  .listing_text h4 {
+    font-size: 16px;
+  }
+  .listing_text p {
+    font-size: 13px;
+  }
+  .l_text p {
+    font-size: 13px;
+  }
+  .l_text a.l-logo {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .l_text a.l-logo svg {
+    width: 14px;
+  }
+  .Team_L_creat_team a svg {
+    margin-right: 10px;
+    height: 50px;
+  }
+  .teamTypeSelect ul li img {
+    height: 30px;
+  }
+  .contactInfo .form-control::placeholder {
+    font-size: 14px;
+  }
+  .resume_view .modal-header h4.modal-title {
+    font-size: 14px;
+  }
+  h2.resume_userName {
+    font-size: 16px;
+  }
+  h3.resume_userExpert {
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 460px;
+    margin-bottom: 10px;
+  }
+  .resume_userPosition {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .resume_info_view p {
+    line-height: 28px;
+    font-size: 14px;
+  }
+  button.btn.btn-downloadResume {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  button.btn.btn-downloadResume {
+    height: 44px;
+  }
+  .resume_info_top {
+    padding-bottom: 65px;
+  }
+  .resume_skillset {
+    margin-bottom: -35px;
+  }
+  .user_resume h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .user_resume ul li {
+    line-height: 27px;
+  }
+  .user_resume ul li {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .modal-content.resume_view .modal-body {
+    padding: 32px 0 32px 50px;
+  }
+  .user_resume ul {
+    margin-bottom: 40px;
+  }
+  .resume_Worked_item p {
+    font-size: 14px;
+  }
+  .resume_Worked_Projects h3 {
+    font-size: 18px;
+  }
+  .modal-content.resume_view .close svg {
+    height: 15px;
+    width: auto;
+    margin-left: -20px;
+  }
+  .resume_Worked_item {
+    margin-top: 25px;
+  }
+  .user_resume ul li::before {
+    top: 13px;
+  }
+  .modal-content.profile_view .close svg {
+    height: 15px;
+    width: auto;
+  }
+  .editTalentView .modal-header button.close svg {
+    height: 15px;
+    width: auto;
+  }
+  .request_talent h1 {
+    font-size: 25px;
+    padding: 20px 0 30px;
+  }
+  .request_talent label {
+    font-size: 12px;
+  }
+  .request_talent textarea.form-control {
+    min-height: 150px;
+  }
+  .deprt-available svg {
+    height: 20px;
+    width: auto;
+  }
+  .select-items div {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+  }
+  .viewUserDiv h1 {
+    font-size: 25px;
+  }
+  .Userdeatals img {
+    height: 95px;
+    width: 95px;
+  }
+  .Userdeatals button.btn.btn-update {
+    font-size: 13px;
+    width: 90px;
+    height: 40px;
+  }
+  .Userdeatals button.btn.btn-delete {
+    font-size: 13px;
+    width: 90px;
+    height: 40px;
+  }
+  .modal-content.profile_view .modal-header button.btn.btn-update {
+    font-size: 13px;
+    width: 90px;
+    height: 40px;
+  }
+  .modal-content.profile_view .user_profile h2 {
+    font-size: 18px;
+  }
+  .form-control::placeholder {
+    font-size: 14px !important;
+  }
+  .form-control {
+    font-size: 14px !important;
+  }
+  #progressbar li:before {
+    top: 42px;
+  }
+  .progressbarDiv {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #dashboard {
+    padding-top: 100px;
+  }
+  #r_view_ur_team .fixedSidebar {
+    padding: 22px 11px 11px;
+    width: 278px;
+    border-radius: 15px;
+  }
+  .no_member_box-item {
+    border-radius: 15px;
+  }
+  #r_view_ur_team .cost_calculetor h4 {
+    padding: 0 14px 15px;
+  }
+  #r_view_ur_team .monthly_item h4 {
+    padding-left: 0;
+    padding-bottom: 10px;
+  }
+  #r_view_ur_team .cost-item h3 {
+    padding-bottom: 0px;
+  }
+  #r_view_ur_team #r_view_ur_team .cost-item {
+    padding: 0 14px 20px;
+  }
+  #r_view_ur_team .monthly_cost {
+    margin-top: 10px;
+    padding: 15px 18px;
+  }
+  .r_creat-team {
+    padding-top: 33px;
+  }
+  .r_creat-team .team-ul-1st ul li {
+    padding-left: 15px;
+  }
+  .team-ul-1st .dropdown-menu .dropdown-item {
+    padding-left: 20px;
+  }
+  .right_content {
+    width: calc(100% - 262px);
+    float: right;
+  }
+  .teamSupporting_view_member {
+    padding: 0 15px;
+  }
+  .form-control {
+    height: 45px !important;
+  }
+  .select-custom {
+    height: 45px !important;
+  }
+  textarea.form-control {
+    min-height: 260px;
+  }
+  .submitRequisitionInfo {
+    margin: 35px 0;
+  }
+  #progressbar li.active.done:before {
+    top: 36px;
+  }
+  .your-team-name.ask_talent_padding {
+    padding-bottom: 0px;
+  }
+  .askTalent textarea.form-control {
+    min-height: 160px;
+  }
+  .talent-part-flex button.btn.btn-cancelreq {
+    font-size: 13px;
+  }
+  .talent-part-flex button.btn.btn-pousereq {
+    font-size: 13px;
+  }
+  .talent-part-flex button.btn.btn-pousereq {
+    height: 41px;
+  }
+  .talent-part-flex button.btn.btn-cancelreq {
+    height: 41px;
+  }
+  .profile-item .profile img {
+    height: 86px;
+    border-radius: 50%;
+    width: 86px;
+    object-fit: cover;
+  }
+  .hireTeam_list .resume-part-flex .view-resume a {
+    height: 41px;
+  }
+  .hireTeam_list .resume-part-flex .removeTeam a {
+    height: 41px;
+  }
+  .resume-part-flex {
+    padding-bottom: 1px;
+    margin-top: -22px;
+  }
+  .department-profile p.expartics {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  .r-department-part .col-lg-6.pr_padding {
+    padding-right: 14px;
+  }
+  .r-department-part .col-lg-6.pl_padding {
+    padding-left: 14px;
+  }
+  .deprt-available {
+    right: 20px;
+    top: 22px;
+  }
+  .r_number_u {
+    margin-bottom: 14px;
+  }
+  .depart-ul {
+    margin-bottom: 37px;
+  }
+  #progress_form fieldset {
+    padding-bottom: 19px;
+  }
+  .teamSupporting_view .teamSupporting_view_member img {
+    height: 75px;
+    width: auto;
+  }
+  .teamSupporting_view_member h3 {
+    font-size: 14px;
+  }
+  .db_add_Member .add_member_a {
+    padding: 11px 20px;
+    font-size: 13px;
+  }
+  .db_add_Member .add_member_p {
+    font-size: 14px;
+  }
+  .resume_userPic img {
+    height: 340px;
+    width: auto;
+  }
+  .resume_info_view {
+    padding-left: 80px;
+    padding-top: 26px;
+  }
+  h2.resume_userName {
+    margin-bottom: 10px;
+  }
+  .resume_Worked_Projects {
+    margin-top: 35px;
+  }
+}
+/* ===========================================================================
+===============================================================================
+*/
+
+@media (min-width: 1366px) and (max-width: 1366px) {
+  .depart-ul .item_serch {
+    height: 41px;
+    left: 32.3%;
+    margin-top: 0;
+  }
+  .r_creat-team .team-ul-1st ul li button#dropdown-basic {
+    padding: 15px 0 15px 15px;
+    width: 100%;
+    font-size: 14px;
+  }
+}
+/* ===========================================================================
+===============================================================================
+*/
+
+@media (min-width: 1280px) and (max-width: 1360px) {
+  .PhoneInputInput {
+    height: 45px;
+    font-size: 16px;
+  }
+  .r_creat-team .team-ul-1st ul li button#dropdown-basic {
+    padding: 15px 0 15px 15px;
+    width: 100%;
+  }
+  .dboard_width {
+    width: calc(100% - 80px);
+  }
+  .dboard_widthHeader {
+    width: calc(100% - 80px);
+  }
+  .teamTypeSelect ul li.ui-state-active {
+    background: url("../images/1280active_check.jpg") right top no-repeat;
+    background-position-y: 8px;
+    background-position-x: 95%;
+  }
+  .monthly_cost {
+    margin-top: 10px;
+  }
+  #r_view_ur_team .fixedSidebar {
+    overflow: inherit;
+    height: calc(100% - 220px);
+  }
+  .r_creat-team {
+    width: 220px;
+    height: calc(100% - 122px);
+  }
+  .team-ul-1st.second .dropdown a.dropdown-toggle svg {
+    height: 6px;
+    width: auto;
+  }
+  .right_content {
+    width: calc(100% - 240px);
+  }
+  .r_creat-team {
+    border-radius: 12px;
+  }
+  .cost_calculetor {
+    width: 258px;
+  }
+  #r_view_ur_team .fixedSidebar {
+    width: 258px;
+  }
+  .manageTeam,
+  .manageCost_calculator {
+    width: calc(100% - 278px);
+  }
+  .no_member_box-item {
+    height: 170px;
+    width: calc(100% - 200px);
+  }
+  .no_member_box_cost {
+    height: 170px;
+    width: 180px;
+    border-radius: 12px;
+  }
+  .r-department-part .depart-ul ul .btn.dropdown-toggle svg {
+    right: 10px;
+  }
+  .r-department-part .col-lg-6.pl-0.pr_padding {
+    padding-right: 8px;
+  }
+  #dashboard {
+    padding-top: 92px;
+  }
+  .r-department-part .col-lg-6.pl-0.pl_padding {
+    padding-left: 8px;
+  }
+  a {
+    font-size: 12px;
+  }
+  .r_creat-team .team-ul-1st ul li a {
+    padding: 12px 0;
+    padding-left: 13px;
+  }
+  .r_creat-team .team-ul-1st ul li button#dropdown-basic {
+    font-size: 12px;
+    padding: 15px 0 15px 12px;
+  }
+  .team-ul-1st .dropdown-menu .dropdown-item {
+    font-size: 12px;
+  }
+  .no_member_box-item {
+    border-radius: 12px;
+  }
+  .navbar {
+    padding: 15px 0;
+  }
+  a.aCall {
+    margin-right: 40px;
+  }
+  ul.notification {
+    margin-right: 40px;
+  }
+  a.dropdown-toggle svg {
+    height: 7px;
+    width: auto;
+    margin-right: 7px;
+  }
+  .your-team-name {
+    background: #ffffff;
+    padding: 26px 20px 20px 20px;
+    border-radius: 12px;
+    padding-bottom: 0;
+  }
+  #progressbar li {
+    font-size: 12px;
+  }
+  #progressbar li:before {
+    width: 10px;
+    height: 10px;
+    top: 43px;
+  }
+  #progressbar li.active.done:before {
+    width: 21px;
+    height: 21px;
+    top: 38px;
+  }
+  .team_name h1 {
+    font-size: 23px;
+    margin-bottom: 0;
+  }
+  .btn_manage {
+    padding: 8px 14px;
+    padding-right: 8px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+  }
+  .r_number_text {
+    margin-top: -10px;
+  }
+  .no_member_box {
+    padding-top: 22px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .no_member_box-item p {
+    padding: 0;
+    line-height: 182px;
+  }
+  .no_member_box_cost p {
+    padding: 45px 40px;
+    padding-bottom: 6px;
+    line-height: 21px;
+  }
+  .no_member_box_cost span {
+    font-size: 22px;
+  }
+  .r-department-part .depart-ul ul .btn.dropdown-toggle {
+    font-size: 12px;
+  }
+  .r-department-part .depart-ul ul li {
+    padding-right: 10px;
+  }
+  .r-department-part .depart-ul ul .btn.dropdown-toggle {
+    border-radius: 6px;
+    padding: 11px 37px 11px 18px;
+  }
+  .depart-ul .item_serch .form-control {
+    font-size: 12px;
+  }
+  input::placeholder {
+    font-size: 12px !important;
+  }
+  .slider-item img {
+    height: 55px;
+    width: auto;
+  }
+  .depart-ul .item_serch {
+    height: 40px;
+    left: 31.3%;
+  }
+  .r-department-part .depart-ul ul .right {
+    padding-top: 8px;
+    padding-right: 30px;
+  }
+  .r-department-part .depart-ul ul .right.available {
+    padding-top: 8px;
+  }
+  .costCalculator_pagination ul li a {
+    height: 26px;
+    width: 26px;
+    font-size: 12px;
+    line-height: 26px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  .depart-ul {
+    margin-bottom: 34px;
+  }
+  .r_number_u {
+    margin-bottom: 20px;
+  }
+  .costCalculator_pagination ul {
+    margin-bottom: 0;
+  }
+  .department-profile {
+    border-radius: 13px;
+    padding: 20px;
+    padding-bottom: 15px;
+  }
+  .department-profile .profile-text h3 {
+    font-size: 13px;
+  }
+  .department-profile .profile-text p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .department-profile .text_team {
+    margin-top: 5px;
+  }
+  .profile-item .profile img {
+    height: 80px;
+    border-radius: 50%;
+    width: 80px;
+    object-fit: cover;
+  }
+  .profile-item.p_width .profile img {
+    height: 90px;
+    width: auto;
+  }
+  .profile-item .profile {
+    padding-right: 15px;
+  }
+  .department-profile .profile-text {
+    padding-top: 8px;
+  }
+  .deprt-available a {
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 6px 12px;
+  }
+  .deprt-available {
+    right: 20px;
+    top: 20px;
+  }
+  .department-profile .profile-item {
+    margin-top: 10px;
+  }
+  .department-profile .profile-text-dp {
+    padding-top: 20px;
+    padding-right: 60px;
+  }
+  .department-profile .profile-text label {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .r_departments.Ask_telens .department-profile {
+    padding: 25px 20px;
+  }
+  .r_departments .col-lg-6.pr_padding {
+    padding-right: 8px;
+  }
+  .your-team-name.ask_talent_padding p.expartics {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .r_departments.Ask_telens .deprt-available {
+    right: 30px;
+    top: 45px;
+  }
+  .editTalentView {
+    padding: 35px 40px;
+    right: 134px;
+    width: 775px;
+  }
+  .editTalentView .modal-header button.close svg {
+    height: 15px;
+    width: auto;
+  }
+  .r_departments .col-lg-6.pl_padding {
+    padding-right: 8px;
+  }
+  .department-profile p.details {
+    padding-top: 18px;
+    line-height: 22px;
+  }
+  .department-profile p.expartics {
+    padding-top: 13px;
+    padding-bottom: 12px;
+  }
+  .Expertise.owl-carousel .owl-item {
+    font-size: 12px;
+  }
+  .Expertise.owl-carousel .owl-nav {
+    font-size: 34px;
+  }
+  .owl-theme .owl-nav {
+    margin-top: 8px;
+  }
+  .resume-part-flex a {
+    font-size: 12px;
+    border-radius: 8px;
+  }
+  .resume-part-flex .view-resume a {
+    padding: 11px 35px;
+  }
+  .resume-part-flex .add-team a {
+    padding: 11px 35px;
+  }
+  .resume-part-flex .view-resume a svg {
+    height: 15px;
+    width: auto;
+  }
+  .resume-part-flex a svg {
+    height: 12px;
+    width: auto;
+    margin-bottom: 3px;
+  }
+  .depart-ul .item_serch img {
+    height: 12px;
+    width: auto;
+  }
+  .askTalent h2.askTalent_title {
+    font-size: 23px;
+  }
+  .askTalent p.askTalent_tagLine {
+    color: #666;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .form-title {
+    margin-bottom: 23px;
+  }
+  .askTalent label {
+    font-size: 12px;
+  }
+  .select-custom {
+    height: 38px;
+    border-radius: 6px;
+  }
+  .select-selected {
+    font-size: 12px;
+    line-height: 38px;
+  }
+  .select-selected:after {
+    width: 10px;
+    height: 12px;
+  }
+  .resume_view {
+    max-width: 1000px;
+  }
+  h3.resume_userExpert {
+    line-height: 28px;
+  }
+  .select-selected.select-arrow-active:after {
+    top: 13px;
+  }
+  .select-items div {
+    margin-bottom: 13px;
+    padding-bottom: 13px;
+    user-select: none;
+    font-size: 12px;
+  }
+  .askTalent .form-control {
+    height: 38px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    line-height: 38px;
+    font-size: 12px;
+  }
+  .askTalent textarea.form-control {
+    min-height: 130px;
+    resize: none;
+  }
+  button.btn.btn-submit {
+    border-radius: 8px;
+    height: 40px;
+    font-size: 12px;
+    min-width: 107px;
+  }
+  .askTalent {
+    padding: 26px 20px 20px 20px;
+    border-radius: 12px;
+  }
+  .askTalentagain img {
+    height: 90px;
+    width: auto;
+  }
+  .askTalentagain {
+    padding: 60px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+  }
+  .askTalentagain p {
+    line-height: 26px;
+    font-size: 12px;
+    padding: 18px 0;
+  }
+  button.btn.btn-talentAgain {
+    font-size: 12px;
+  }
+  .team_name h1 svg {
+    margin-left: 10px;
+    height: 22px;
+  }
+  .member_box .slider-item img {
+    width: auto;
+    height: 55px;
+  }
+  .member_box.slick-slider h3 {
+    font-size: 12px;
+    padding-top: 14px;
+    margin-bottom: 3px;
+  }
+  .member_box.slick-slider p {
+    font-size: 12px;
+    line-height: inherit;
+  }
+  .slider-item {
+    padding: 15px;
+  }
+  .slider-item:hover {
+    border-radius: 8px;
+  }
+  .no_member_box-item .next svg {
+    height: 18px;
+    width: auto;
+  }
+  .no_member_box-item .next {
+    width: 61px;
+  }
+  .cost_calculetor h4 {
+    font-size: 14px;
+    padding: 0 14px 16px;
+  }
+  .cost-item h3 {
+    padding-bottom: 0px;
+  }
+  .manage_cost .cost-item {
+    padding-bottom: 20px;
+  }
+  .fixedSidebar .cost_value {
+    overflow: auto;
+    height: calc(100% - 205px);
+  }
+  .fixedSidebar {
+    overflow: inherit;
+    height: calc(100% - 120px);
+  }
+  .cost-item {
+    padding: 0 14px 20px;
+  }
+  .addItem_area {
+    width: 175px;
+  }
+  input.input-text-tvr {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  .monthly_cost {
+    border-radius: 14px;
+    padding: 25px 10px 17px 10px;
+  }
+  .monthly_cost h4 {
+    padding-bottom: 0px;
+    padding-left: 0;
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+  .monthly_cost p {
+    font-size: 12px;
+    line-height: 20px;
+    max-width: 158px;
+  }
+  .monthly_item {
+    padding-bottom: 18px;
+  }
+  .r_departments.padb .department-profile {
+    margin-bottom: 20px;
+    padding-bottom: 18px;
+  }
+  .hireTeam_list .resume-part-flex .view-resume {
+    width: 49.4%;
+  }
+  #r_view_ur_team .cost-item {
+    padding: 0 14px 21px;
+  }
+  .progressbarDiv {
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+  .your-team-name {
+    margin-bottom: 20px;
+  }
+  .askTalent {
+    margin: 0px 0 20px;
+  }
+  .fixedSidebar {
+    width: 258px;
+  }
+  .teamSupporting_view {
+    padding: 15px 20px;
+  }
+  .team-ul-1st .dropdown-menu .dropdown-item {
+    padding-left: 20px;
+  }
+  .team-ul-1st.second .dropdown.show a.dropdown-toggle svg {
+    width: auto;
+    height: 8px;
+  }
+  .teamHier_top h1 {
+    font-size: 23px;
+  }
+  .teamTypeSelect label {
+    font-size: 12px;
+  }
+  .teamTypeSelect ul li a {
+    padding: 20px;
+    line-height: 22px;
+  }
+  .teamSupporting_view {
+    border-radius: 12px;
+  }
+  .teamSupporting_view_member h3 {
+    font-size: 13px;
+  }
+  .teamTypeSelect ul li {
+    width: 180px;
+  }
+  .teamSupporting h2 {
+    font-size: 12px;
+  }
+  .teamSupporting h2 svg {
+    margin-left: 5px;
+    margin-bottom: 2px;
+  }
+  .teamSupporting_view_member a {
+    font-size: 11px;
+  }
+  .teamSupporting_view_member {
+    padding: 0 20px;
+  }
+  .teamSupporting_view_member p {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+  .Expertise.owl-carousel .owl-nav .owl-prev {
+    bottom: 38px;
+  }
+  .Expertise.owl-carousel .owl-nav .owl-next {
+    bottom: 38px;
+  }
+  .teamSupporting {
+    margin-top: 15px;
+  }
+  .teamSupporting_view_member img {
+    height: 69px;
+    width: auto;
+  }
+  .hireTeam_list .hireTeam_list_top h2 {
+    font-size: 16px;
+  }
+  .hireTeam_list .hireTeam_list_top h2 svg {
+    margin-left: 6px;
+    height: 20px;
+    margin-bottom: 4px;
+  }
+  .hireTeam_list {
+    margin-top: 35px;
+  }
+  .hireTeam_list .resume-part-flex .view-resume a {
+    height: 41px;
+  }
+  .hireTeam_list .resume-part-flex .removeTeam a {
+    height: 41px;
+  }
+  .db_add_Member .add_member_p {
+    font-size: 12px;
+  }
+  .db_add_Member .add_member_a {
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 10px 15px;
+  }
+  .submitRequisitionInfo {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: 20px;
+  }
+  .submitRequisitionInfo .form-group {
+    margin-bottom: 15px;
+  }
+  .info_form h2 {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .submitRequisitionInfo label {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .submitRequisitionInfo .form-control {
+    height: 41px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    line-height: 41px;
+    font-size: 12px;
+  }
+  .rv_select {
+    height: 41px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    line-height: 41px;
+    font-size: 12px;
+  }
+  .re_svg svg {
+    position: absolute;
+    top: 49px;
+    right: 18px;
+    height: 7px;
+    width: auto;
+  }
+  .expectedStartingDate h3 {
+    font-size: 15px;
+  }
+  .expectedStartingDate p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .calenderDateView {
+    height: 160px;
+    margin-top: 30px;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    font-size: 12px;
+    line-height: 160px;
+    padding: 0;
+  }
+  .expectedStartingDate .col-md-6.text-right img {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .right_content.review_team_u .your-team-name {
+    padding-bottom: 20px;
+  }
+  .calenderDateView.padding {
+    padding: 58px 0;
+    line-height: inherit;
+  }
+  .calenderDateView label {
+    font-size: 12px;
+  }
+  .calenderDateView span.dateView {
+    font-size: 14px;
+  }
+  .t_listing_r .logo img {
+    height: 50px;
+    width: auto;
+  }
+  .calenderDateView label {
+    line-height: 4.96px;
+    padding-bottom: 0px;
+  }
+  .listing_text h4 {
+    font-size: 13px;
+    padding-bottom: 0px;
+  }
+  .t_listing_l .l_text h3 {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .l_text a.l-logo {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 4px;
+  }
+  .Team_L_creat_team {
+    border-radius: 10px;
+    padding: 25px 0;
+  }
+  .t_listing_l .l_text h3 {
+    margin-bottom: 9px;
+    margin-top: 3px;
+  }
+  .Team_Listing.padding {
+    margin-top: 35px;
+  }
+  .l_text a.l-logo svg {
+    height: 11px;
+    width: auto;
+  }
+  .Team_Listing {
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .Team_L_creat_team a svg {
+    margin-right: 9px;
+    height: 40px;
+    width: auto;
+  }
+  .r_creat-team {
+    padding-top: 28px;
+  }
+  .department-profile {
+    border-radius: 13px;
+    margin-bottom: 20px;
+  }
+  .Team_Listing {
+    margin-bottom: 15px;
+  }
+  .cost-item h3 span svg {
+    height: 13px;
+    width: auto;
+  }
+  .fixedSidebar {
+    padding: 26px 8px 7px 8px;
+    border-radius: 12px;
+  }
+  .monthly_cost {
+    border-radius: 8px;
+    padding: 25px 10px 12px 10px;
+    width: calc(100% - 14px);
+    max-width: 243px;
+  }
+  .selectItem label {
+    font-size: 12px;
+    margin-right: 15px;
+  }
+  .selectItem .sortItemselect {
+    height: 41px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+  }
+  .selectItem .sortItemselect select.form-control {
+    font-size: 12px;
+  }
+  .item_serch img {
+    height: 12px;
+    width: auto;
+  }
+  .item_serch {
+    width: 286px;
+    height: 43px;
+  }
+  .row.aDSearch .item_serch {
+    margin-top: 5px;
+  }
+  .accordion__item__header {
+    font-size: 14px;
+  }
+  .hireTeam_list .hireTeam_list_top {
+    margin-bottom: 25px;
+  }
+  .accordion__item:first-child .accordion__item__header {
+    padding-bottom: 13px;
+  }
+  .costItem_Calculator {
+    padding: 14px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    height: 58px;
+  }
+  .costItem_Calculator h3.user_posi {
+    font-size: 12px;
+  }
+  .costItem_Calculator h4.user_exp {
+    font-size: 12px;
+  }
+  .inner-add_remove {
+    width: 90px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    height: 38px;
+  }
+  button.btn.btn-addTeam {
+    height: 38px;
+    font-size: 12px;
+    width: 73px;
+    border-radius: 7px;
+  }
+  .costItem_Calculator {
+    margin-bottom: 9px;
+  }
+  .accordion__item__header {
+    padding: 12px 0;
+    font-size: 14px;
+  }
+  .accordion__item__header::before {
+    height: 8px;
+    width: 8px;
+    border-right: 2px solid #bbbbbb;
+    border-bottom: 2px solid #bbbbbb;
+  }
+  .deprt-available span svg {
+    height: 22px;
+    width: auto;
+  }
+  .talent-part-flex button.btn.btn-cancelreq {
+    font-size: 12px;
+    height: 41px;
+  }
+  .talent-part-flex button.btn.btn-pousereq {
+    font-size: 12px;
+    height: 41px;
+  }
+  .department-profile p.expartics {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .department-profile .profile-text-dp p {
+    line-height: 23px;
+  }
+  .talent-part-flex {
+    margin-top: -25px;
+  }
+  .slider-overlay svg {
+    height: 15px;
+    width: auto;
+  }
+  .askTalent .form-group {
+    margin-bottom: 20px;
+  }
+  .askTalent.team_padding {
+    padding-bottom: 208px;
+  }
+  #r_view_ur_team .askTalent {
+    margin: 0px 0 25px;
+  }
+  .askTalent {
+    margin: 0px 0 25px;
+  }
+  .r_departments {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .d-inline-block {
+    height: 25px;
+    width: auto;
+  }
+  span.cal_contact {
+    font-size: 12px;
+  }
+  span.cal_contact img {
+    height: 14px;
+    width: auto;
+    margin-bottom: 1px;
+  }
+  a.aCall {
+    background: rgba(244, 128, 57, 0.1);
+    padding: 8px 15px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+  }
+  .notification a svg {
+    height: 16px;
+    width: 16px;
+  }
+  .userNav a.dropdown-toggle img {
+    margin-right: 10px;
+    height: 30px;
+    width: auto;
+  }
+  ul.userNav ul.dropdown-menu {
+    top: 47px !important;
+    width: 200px;
+  }
+  .Userdeatals button.btn.btn-update {
+    margin-right: 6px;
+  }
+  .modal-content.profile_view {
+    width: 775px;
+  }
+  .modal-content.profile_view .modal-header {
+    width: 775px;
+  }
+  .modal-content.profile_view .modal-header button.btn.btn-update {
+    font-size: 12px;
+    height: 38px;
+    width: 85px;
+  }
+  #r_view_ur_team .monthly_cost {
+    border-radius: 8px;
+    padding: 25px 10px 12px 10px;
+    width: calc(100% - 14px);
+    max-width: 240px;
+  }
+  #r_view_ur_team .fixedSidebar {
+    padding: 33px 9px 11px;
+  }
+  #r_view_ur_team .fixedSidebar .cost_value {
+    height: calc(100% - 202px);
+  }
+  ul.userNav ul.dropdown-menu li a {
+    font-size: 12px;
+  }
+  .depart-ul .item_serch {
+    border-radius: 6px;
+  }
+  .request_talent textarea.form-control {
+    min-height: 150px;
+  }
+  ul.userNav ul.dropdown-menu li {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+  }
+  .hireTeam_list .r_departments {
+    padding-bottom: 0px;
+  }
+  .db_add_Member .add_member_a svg {
+    margin-right: 6px;
+    margin-bottom: 2px;
+    height: 11px;
+  }
+  button.btn.btn-meetin_schedule {
+    font-size: 12px;
+  }
+  .your-team-name.ask_talent_padding .r_departments {
+    padding-bottom: 0;
+  }
+  .modal-content.profile_view .modal-header button.close svg {
+    height: 17px;
+    width: auto;
+  }
+  .modal-content.profile_view .modal-header button.btn.btn-update {
+    font-size: 13px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    height: 40px;
+    width: 90px;
+  }
+  .viewUserDiv h1 {
+    font-size: 23px;
+    margin-bottom: 25px;
+  }
+  .Userdeatals img {
+    height: 95px;
+    width: 95px;
+  }
+  .Userdeatals button.btn.btn-update {
+    font-size: 12px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    height: 40px;
+    width: 90px;
+  }
+  .Userdeatals button.btn.btn-delete {
+    font-size: 12px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    height: 40px;
+    width: 90px;
+  }
+  .viewUserDiv {
+    margin-bottom: 40px;
+  }
+  .modal-content.profile_view .modal-body {
+    padding: 100px 50px 30px;
+  }
+  .modal-content.profile_view .user_profile h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .modal-content.profile_view label {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .modal-content.profile_view .form-control {
+    height: 41px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+  .modal-content.profile_view textarea.form-control {
+    min-height: 44px;
+  }
+  .companyProfile,
+  .companyProfileInfo,
+  .companyProfilepassChange {
+    margin-bottom: 15px;
+  }
+  .editTalentView .modal-header .header_btn-group button.btn.btn-save {
+    font-size: 12px;
+  }
+  .request_talent h1 {
+    font-size: 23px;
+    padding: 20px 0 20px;
+  }
+  .request_talent label {
+    font-size: 12px;
+  }
+  .request_talent .form-control {
+    font-size: 12px;
+    height: 41px;
+  }
+  .request_talent .form-group {
+    margin-bottom: 20px;
+  }
+  .resume_userPic img {
+    height: 307px;
+  }
+  .resume_view .modal-header h4.modal-title {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+  h2.resume_userName {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  h3.resume_userExpert {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .resume_userPosition {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .resume_info_view p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  button.btn.btn-downloadResume {
+    padding: 0 27px;
+    height: 41px;
+    margin-top: 22px;
+    font-size: 11px;
+    border-radius: 6px;
+  }
+  button.btn.btn-downloadResume svg {
+    height: 16px;
+    width: auto;
+  }
+  .resume_info_view {
+    padding-left: 65px;
+    padding-top: 15px;
+  }
+  .resume_view {
+    padding: 40px 120px 48px 40px;
+  }
+  .resume_view .modal-header .close {
+    top: 40px;
+  }
+  .resume_view .modal-header .close svg {
+    height: 17px;
+    width: auto;
+  }
+  .resume_info_top {
+    padding-bottom: 50px;
+  }
+  .user_resume h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .user_resume ul li {
+    margin-bottom: 17px;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .user_resume ul {
+    margin-bottom: 30px;
+  }
+  .user_resume ul li::before {
+    top: 11px;
+  }
+  .resume_skillset ul ul ol {
+    margin-bottom: 5px;
+  }
+  .resume_skillset {
+    margin-bottom: 0px;
+  }
+  .resume_Worked_Projects {
+    margin-top: 30px;
+  }
+  .resume_Worked_Projects h3 {
+    font-size: 16px;
+  }
+  .overlay_resume_project {
+    border-radius: 7px;
+  }
+  .overlay_resume_project a {
+    float: right;
+    padding: 24px 20px;
+  }
+  .overlay_resume_project a svg {
+    height: 11px;
+    width: auto;
+  }
+  .resume_Worked_item p {
+    font-size: 12px;
+    margin-top: 12px;
+  }
+  .resume_Worked_item {
+    margin-bottom: 10px;
+  }
+}
+/* ===========================================================================
+===============================================================================
+*/
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .PhoneInputInput {
+    height: 41px;
+    font-size: 14px;
+  }
+  .r_creat-team .team-ul-1st ul li button#dropdown-basic {
+    padding: 15px 0 15px 10px;
+    width: 100%;
+    font-size: 12px;
+  }
+  .dboard_width {
+    width: calc(100% - 60px);
+  }
+  .resume_view .modal-header .close svg {
+    height: 17px;
+    width: auto;
+  }
+  .btm_pad {
+    margin-top: 100px;
+  }
+  .db_add_Member .add_member_p {
+    font-size: 12px;
+  }
+  .db_add_Member .add_member_a {
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 10px 15px;
+  }
+  .db_add_Member {
+    padding: 5px 0;
+    padding-bottom: 10px;
+  }
+  .r_creat-team {
+    width: 195px;
+    padding-top: 25px;
+    border-radius: 12px;
+  }
+  a,
+  p {
+    font-size: 12px;
+  }
+  .r_creat-team .team-ul-1st ul li a {
+    padding: 12px 0;
+    padding-left: 10px;
+  }
+  .team-ul-1st .dropdown-menu .dropdown-item {
+    font-size: 12px;
+    padding-left: 15px;
+  }
+  .cost_calculetor h4 {
+    font-size: 14px;
+  }
+  .askTalent {
+    border-radius: 12px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  .cost_calculetor h4 {
+    padding: 0 14px 15px;
+  }
+  .cost-item h3 {
+    padding-bottom: 0;
+  }
+  .manage_cost .cost-item {
+    padding-bottom: 18px;
+  }
+  .cost-item h3 span svg {
+    height: 15px;
+    width: auto;
+  }
+  .r_create_overflow {
+    width: 100%;
+    height: 100%;
+    overflow: unset;
+    overflow-x: hidden;
+  }
+  .cost_calculetor h4 {
+    font-size: 13px;
+  }
+  .cost_calculetor h4 {
+    padding: 0 14px 10px;
+  }
+  .navbar {
+    padding: 14px 22px;
+  }
+  .cost_calculetor.manage_cost .monthly_cost {
+    border-radius: 13px;
+    padding: 17px 10px;
+    margin: 0;
+    margin-top: 20px;
+    max-width: 316px;
+    width: calc(100% - 20px);
+  }
+  .cost_calculetor.manage_cost .fixedSidebar .cost_value {
+    overflow: auto;
+    height: calc(100% - 237px);
+  }
+  .cost_calculetor .monthly_cost {
+    width: calc(100% - 16px) !important;
+    max-width: 322px;
+  }
+  .fixedSidebar .cost_value {
+    overflow: auto;
+    height: calc(100% - 240px);
+  }
+  .monthly_cost h4 {
+    padding-left: 0;
+  }
+  .monthly_cost p {
+    font-size: 12px;
+    line-height: 20px;
+    max-width: 162px;
+  }
+  .monthly_item {
+    padding-bottom: 15px;
+  }
+  .fixedSidebar {
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    width: 250px;
+  }
+  .teamHier_top h1 {
+    font-size: 23px;
+  }
+  .teamTypeSelect label {
+    font-size: 12px;
+  }
+  .right_content {
+    width: calc(100% - 216px);
+  }
+  .manageTeam,
+  .manageCost_calculator {
+    width: calc(100% - 0px);
+  }
+  a.dropdown-toggle svg {
+    margin-left: 7px;
+    height: 7px;
+    width: auto;
+  }
+  .teamTypeSelect ul li a {
+    padding: 20px 10px;
+    line-height: 22px;
+  }
+  .teamSupporting h2 {
+    font-size: 12px;
+  }
+  .manageCost_calculator .teamSupporting_view_member img {
+    height: 69px;
+    width: auto;
+  }
+  .teamSupporting_view_member {
+    padding: 0 0px;
+  }
+  .teamSupporting_view_member a {
+    font-size: 10px;
+  }
+  .your-team-name {
+    padding: 24px 18px;
+    border-radius: 12px;
+  }
+  .teamSupporting_view_member p {
+    margin-bottom: 0px;
+  }
+  .teamSupporting_view {
+    padding: 20px 5px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+  }
+  .selectItem label {
+    font-size: 11px;
+    margin-right: 10px;
+  }
+  #dashboard {
+    padding-top: 90px;
+  }
+  .r_creat-team {
+    height: calc(100% - 123px);
+  }
+  .progressbarDiv {
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  .selectItem .sortItemselect select.form-control {
+    font-size: 11px;
+  }
+  .item_serch {
+    height: 41px;
+  }
+  .selectItem .sortItemselect {
+    height: 41px;
+  }
+  .item_serch {
+    width: 220px;
+    padding: 6px 20px;
+    margin-top: 6px;
+  }
+  .item_serch input.membarSearch {
+    font-size: 12px;
+    padding: 0px;
+  }
+  .item_serch img {
+    height: 12px;
+    width: auto;
+  }
+  .teamTypeSelect label {
+    width: 50%;
+    font-size: 12px;
+  }
+  .accordion__item__header {
+    font-size: 14px;
+  }
+  .costItem_Calculator h3.user_posi {
+    font-size: 12px;
+    line-height: 22px;
+    padding-left: 5px;
+  }
+  .costItem_Calculator h4.user_exp {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .costItem_Calculator {
+    padding: 8px 10px;
+  }
+  .addItem_area {
+    width: 190px;
+  }
+  .inner-add_remove {
+    width: 83px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    padding: 3px 10px;
+  }
+  button.btn.btn-addTeam {
+    height: 36px;
+    font-size: 12px;
+    width: 75px;
+    border-radius: 7px;
+  }
+  .accordion__item__header::before {
+    height: 8px;
+    width: 8px;
+    border-right: 2px solid #bbbbbb;
+    border-bottom: 2px solid #bbbbbb;
+  }
+  .accordion__item__header {
+    font-size: 12px;
+    padding: 12px 0;
+  }
+  .your-team-name {
+    padding-bottom: 5px;
+  }
+  .askTalent h2.askTalent_title {
+    font-size: 23px;
+    margin-bottom: 0;
+  }
+  .askTalent {
+    padding: 18px;
+    padding-top: 22px;
+    margin-bottom: 18px;
+  }
+  ul.userNav ul.dropdown-menu {
+    padding: 25px 25px;
+  }
+  .submitRequisitionInfo .form-group {
+    margin-bottom: 20px;
+  }
+  .calenderDateView label {
+    padding-bottom: 5px;
+  }
+  .calenderDateView span.dateView {
+    line-height: 13px;
+  }
+  .askTalent p.askTalent_tagLine {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .form-title {
+    margin-bottom: 20px;
+  }
+  .askTalent label {
+    font-size: 12px;
+  }
+  .select-custom {
+    height: 41px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+  }
+  .select-selected {
+    font-size: 12px;
+    line-height: 42px;
+  }
+  .select-items div {
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    font-size: 12px;
+  }
+  .askTalent .form-control {
+    height: 41px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    line-height: 41px;
+    padding: 0 20px;
+    font-size: 12px;
+  }
+  .select-selected:after {
+    width: 11px;
+    height: 10px;
+  }
+  .select-items {
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    padding: 15px 20px;
+  }
+  .askTalent textarea.form-control {
+    min-height: 151px;
+  }
+  button.btn.btn-submit {
+    border-radius: 8px;
+    height: 36px;
+    min-width: 85px;
+    font-size: 12px;
+  }
+  .team_name h1 {
+    font-size: 23px;
+  }
+  .no_member_box-item {
+    height: 180px;
+  }
+  .no_member_box_cost {
+    height: 180px;
+  }
+  .no_member_box-item p {
+    padding: 0;
+    line-height: 195px;
+  }
+  .no_member_box_cost span {
+    font-size: 23px;
+  }
+  .no_member_box_cost p {
+    padding: 48px 50px;
+    padding-bottom: 5px;
+    line-height: 22px;
+  }
+  .teamSupporting_view_member p {
+    font-size: 12px;
+  }
+  .teamTypeSelect ul li {
+    width: 180px;
+    float: left;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  .teamTypeSelect ul li.ui-state-active {
+    border: 1px solid #000000;
+    color: #000;
+    background: url("../images/1280active_check.jpg") right top no-repeat;
+    background-position-y: 10px;
+    background-position-x: 95%;
+  }
+  .teamSupporting_view_member img {
+    height: 69px;
+    width: auto;
+  }
+  .depart-ul .item_serch .form-control {
+    font-size: 12px;
+  }
+  .depart-ul .item_serch {
+    height: 39px;
+    border-radius: 8px;
+    width: 250px;
+    padding: 6px 20px;
+    left: 34.3%;
+    font-size: 12px;
+    margin-top: 0;
+  }
+  input::placeholder {
+    font-size: 12px !important;
+  }
+  .r-department-part .depart-ul ul .btn.dropdown-toggle {
+    font-size: 12px;
+    padding: 10px 45px 11px 15px;
+  }
+  .r-department-part .depart-ul ul li {
+    padding-right: 10px;
+  }
+  .depart-ul {
+    margin-bottom: 30px;
+  }
+  .costCalculator_pagination ul li a {
+    font-size: 12px;
+  }
+  .profile-item .profile img {
+    height: 80px;
+    border-radius: 50%;
+
+    width: 80px;
+    object-fit: cover;
+  }
+  .department-profile {
+    border-radius: 13px;
+    padding: 15px;
+    padding-top: 25px;
+    margin-bottom: 18px;
+    padding-right: 11px;
+  }
+  .department-profile .profile-text h3 {
+    font-size: 13px;
+    margin-bottom: 1px;
+  }
+  .pr-0,
+  .px-0 {
+    padding-left: 9px !important;
+  }
+  .pl-0,
+  .px-0 {
+    padding-right: 9px !important;
+  }
+  .deprt-available a {
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  .r_departments.padb .department-profile {
+    padding-top: 30px;
+  }
+  .deprt-available {
+    right: 15px;
+    top: 15px;
+  }
+  .department-profile .profile-text p {
+    font-size: 12px;
+    line-height: 25px;
+  }
+  .department-profile .text_team {
+    margin-top: 0px;
+  }
+  .department-profile .profile-text-dp {
+    display: block;
+    padding-top: 25px;
+  }
+  .department-profile .profile-text-dp p {
+    line-height: 25px;
+  }
+  .department-profile p.details {
+    padding-top: 15px;
+    line-height: 22px;
+  }
+  .department-profile .profile-text {
+    padding-top: 10px;
+  }
+  .department-profile p.expartics {
+    padding-top: 20px;
+    padding-bottom: 13px;
+  }
+  .r_creat-team .team-ul-1st ul li {
+    padding-left: 14px;
+  }
+  .Expertise.owl-carousel .owl-item {
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  .Expertise.owl-carousel .owl-nav {
+    font-size: 30px;
+  }
+  .Expertise.owl-carousel .owl-nav .owl-prev {
+    bottom: 34px;
+  }
+  .Expertise.owl-carousel .owl-nav .owl-next {
+    bottom: 34px;
+  }
+  .resume-part-flex a {
+    font-size: 12px;
+  }
+  .resume-part-flex .view-resume a {
+    padding: 10px 8px;
+  }
+  .resume-part-flex .add-team a {
+    padding: 10px 14px;
+  }
+  .resume-part-flex a svg {
+    height: 15px;
+    width: auto;
+  }
+  .resume-part-flex .add-team a svg {
+    height: 10px;
+    width: auto;
+  }
+  .r_departments.padb .department-profile {
+    padding-bottom: 20px;
+  }
+  .db_add_Member .add_member_a svg {
+    margin-right: 5px;
+    height: 10px;
+    width: auto;
+  }
+  .department-profile .profile-text label {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .askTalent .form-group {
+    margin-bottom: 20px;
+  }
+  .askTalent textarea.form-control {
+    min-height: 135px;
+  }
+  .askTalentagain p {
+    line-height: 26px;
+    font-size: 12px;
+    padding: 15px 0;
+  }
+  button.btn.btn-talentAgain {
+    font-size: 12px;
+    height: 40px;
+  }
+  .askTalentagain img {
+    height: 75px;
+    width: auto;
+  }
+  .your-team-name {
+    margin-bottom: 19px;
+  }
+  .profile-item .profile {
+    padding-right: 15px;
+    padding-top: 10px;
+  }
+  #progressbar li {
+    font-size: 12px;
+  }
+  #progressbar {
+    margin-bottom: 18px;
+  }
+  #progressbar li:before {
+    width: 10px;
+    height: 10px;
+    top: 31px;
+  }
+  #progressbar li.active.done:before {
+    width: 21px;
+    height: 21px;
+    top: 26px;
+  }
+  .askTalentagain {
+    padding: 50px;
+    border-radius: 12px;
+  }
+  .no_member_box-item {
+    border-radius: 12px;
+    width: calc(100% - 200px);
+  }
+  .no_member_box_cost {
+    border-radius: 12px;
+    width: 180px;
+  }
+  .member_box.slick-slider p {
+    font-size: 12px;
+    line-height: inherit;
+  }
+  .member_box.slick-slider h3 {
+    font-size: 12px;
+    padding-top: 10px;
+    margin-bottom: 3px;
+  }
+  .slider-item {
+    margin: 10px;
+  }
+  .slider-item {
+    padding: 10px;
+  }
+  .hireTeam_list .hireTeam_list_top h2 {
+    font-size: 18px;
+  }
+  .hireTeam_list .hireTeam_list_top {
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+  }
+  .hireTeam_list {
+    margin-top: 25px;
+  }
+  #r_view_ur_team .profile-item .profile {
+    padding-right: 15px;
+    padding-top: 0px;
+  }
+  .hireTeam_list .resume-part-flex .view-resume a {
+    height: 41px;
+  }
+  .hireTeam_list .resume-part-flex .removeTeam a {
+    height: 41px;
+  }
+  .cost_calculetor {
+    width: 206px;
+    display: none;
+  }
+  /* #r_view_ur_team .fixedSidebar {
+                padding: 20px 5px 10px;
+                width: 220px;
+            } */
+  #r_view_ur_team .fixedSidebar {
+    overflow: inherit;
+    height: calc(100% - 100px);
+    width: 300px;
+  }
+  .submitRequisitionInfo {
+    margin: 20px 0;
+  }
+  .info_form h2 {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .submitRequisitionInfo label {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .submitRequisitionInfo .form-control {
+    height: 41px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+  .rv_select {
+    height: 41px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 41px;
+  }
+  .re_svg svg {
+    top: 50px;
+    height: 6px;
+    width: auto;
+  }
+  .expectedStartingDate h3 {
+    font-size: 14px;
+  }
+  .expectedStartingDate p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .calenderDateView {
+    border-radius: 13px;
+    padding: 68px 0;
+    font-size: 12px;
+    height: 160px;
+  }
+  .expectedStartingDate img {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .right_content.review_team_u .your-team-name {
+    padding-bottom: 20px;
+  }
+  .calenderDateView label {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .calenderDateView span.dateView {
+    font-size: 12px;
+  }
+  .calenderDateView.padding {
+    padding: 58px 0;
+  }
+  .Team_Listing.padding {
+    margin-top: 30px;
+  }
+  .t_listing_r .logo img {
+    height: 50px;
+    width: auto;
+  }
+  .listing_text h4 {
+    font-size: 12px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+  }
+  .t_listing_l .l_text h3 {
+    line-height: 18px;
+  }
+  .l_text a.l-logo {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 5px;
+  }
+  .l_text a.l-logo svg {
+    height: 11px;
+    width: auto;
+  }
+  .Team_Listing {
+    background: #f7f7f7;
+    border-radius: 13px;
+    padding: 10px;
+    margin-bottom: 12px;
+  }
+  .listing_text p {
+    font-size: 11px;
+  }
+  .t_listing_l .l_text h3 {
+    font-size: 11px;
+  }
+  .t_listing_l .l_text p {
+    font-size: 9px;
+  }
+  .l_text .l-logo a svg {
+    height: 10px;
+    width: auto;
+  }
+  .t_listing_l .l_text h3 {
+    margin-bottom: 2px;
+  }
+  .Team_L_creat_team {
+    border-radius: 12px;
+    padding: 20px 0;
+  }
+  .Team_L_creat_team a svg {
+    margin-right: 5px;
+    height: 35px;
+    width: auto;
+  }
+  .r_departments.Ask_telens .col-lg-6.pr_padding {
+    padding-right: 8px;
+  }
+  .r_departments.Ask_telens .department-profile {
+    margin-bottom: 12px;
+  }
+  .r_departments.Ask_telens .col-lg-6.pl_padding {
+    padding-left: 8px;
+  }
+  button.btn.btn-meetin_schedule {
+    padding: 3px 10px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .fixedSidebar {
+    border-radius: 12px;
+    padding: 30px 8px 8px;
+    padding-bottom: 11px;
+  }
+  .fixedSidebar {
+    height: calc(100% - 80px);
+  }
+  .cost-item {
+    padding: 0 13px 20px;
+  }
+  .fixedSidebar {
+    border-radius: 12px;
+    width: 300px;
+  }
+  .monthly_cost {
+    border-radius: 13px;
+    padding: 17px 10px;
+    margin: 0 5px;
+    margin-top: 20px;
+  }
+  .monthly_cost h4 span {
+    float: inherit;
+    display: block;
+    padding-top: 10px;
+  }
+  .monthly_cost h4 {
+    padding-bottom: 0;
+  }
+  .monthly_cost p {
+    font-size: 11px;
+  }
+  .d-inline-block {
+    height: 24px;
+    width: auto;
+  }
+  .dboard_widthHeader {
+    width: calc(100% - 21px);
+  }
+  span.cal_contact {
+    font-size: 12px;
+  }
+  span.cal_contact img {
+    height: 15px;
+    width: auto;
+  }
+  .notification li a svg {
+    height: 18px;
+    width: auto;
+  }
+  a.aCall {
+    padding: 5px 10px;
+  }
+  ul.userNav ul.dropdown-menu li a {
+    font-size: 12px;
+  }
+  ul.userNav ul.dropdown-menu li {
+    margin-bottom: 13px;
+    padding-bottom: 13px;
+  }
+  ul.userNav ul.dropdown-menu {
+    top: 50px;
+    width: 190px;
+  }
+  .modal-content.profile_view {
+    width: 775px;
+  }
+  .modal-content.profile_view .modal-header {
+    width: 775px;
+  }
+  .modal-content.profile_view .modal-header button.close svg {
+    height: 15px;
+    width: auto;
+  }
+  .resume_view {
+    padding: 40px 90px 40px 40px;
+  }
+  .modal-content.profile_view .modal-header button.btn.btn-update {
+    font-size: 12px;
+    height: 35px;
+    width: 90px;
+  }
+  .viewUserDiv h1 {
+    font-size: 23px;
+    margin-bottom: 25px;
+  }
+  .modal-content.profile_view .modal-body {
+    padding: 100px 50px 30px;
+  }
+  .Userdeatals img {
+    margin-right: 15px;
+    height: 80px;
+    width: 80px;
+  }
+  .Userdeatals button.btn.btn-update {
+    font-size: 12px;
+    border-radius: 7px;
+    height: 35px;
+    width: 90px;
+  }
+  .Userdeatals button.btn.btn-delete {
+    font-size: 12px;
+    border-radius: 7px;
+    height: 35px;
+    width: 90px;
+  }
+  .viewUserDiv {
+    margin-bottom: 40px;
+  }
+  .modal-content.profile_view .user_profile h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .modal-content.profile_view label {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .modal-content.profile_view .form-control {
+    height: 41px;
+    border-radius: 8px;
+    line-height: 41px;
+    font-size: 12px;
+  }
+  .modal-content.profile_view .form-group {
+    margin-bottom: 15px;
+  }
+  .r_departments.Ask_telens .department-profile .profile-text-dp {
+    display: flex;
+    padding-top: 25px;
+    padding-right: 0;
+  }
+  .talent-part-flex button.btn.btn-pousereq {
+    border-radius: 8px;
+    font-size: 12px;
+    height: 41px;
+  }
+  .talent-part-flex button.btn.btn-cancelreq {
+    border-radius: 8px;
+    font-size: 12px;
+    height: 41px;
+  }
+  .talent-part-flex {
+    margin-top: -25px;
+  }
+  .r_departments.Ask_telens .department-profile {
+    padding: 15px;
+    padding-top: 25px;
+  }
+  .r_departments.Ask_telens .profile-item .profile {
+    padding-top: 0px;
+  }
+  .r_departments.Ask_telens .deprt-available svg {
+    height: 20px;
+    width: auto;
+  }
+  .r_departments.Ask_telens .deprt-available {
+    right: 12px;
+    top: 36px;
+  }
+  .request_talent label {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+  .editTalentView .modal-header button.close svg {
+    height: 15px;
+    width: auto;
+  }
+  .editTalentView .modal-header .header_btn-group button.btn.btn-save {
+    font-size: 12px;
+  }
+  .r_departments {
+    padding-top: 20px;
+  }
+  .resume_userPic img {
+    height: 270px;
+  }
+  .resume_view .modal-header h4.modal-title {
+    font-size: 12px;
+  }
+  h2.resume_userName {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  h3.resume_userExpert {
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 5px;
+  }
+  .resume_userPosition {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .resume_info_view p {
+    line-height: 21px;
+    font-size: 11px;
+  }
+  button.btn.btn-downloadResume {
+    padding: 0 15px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+  button.btn.btn-downloadResume svg {
+    height: 16px;
+    width: auto;
+  }
+  .resume_info_view {
+    padding-left: 60px;
+    padding-top: 20px;
+  }
+  .your-team-name.ask_talent_padding p.expartics {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+  .calenderDateView {
+    margin-top: 58px;
+  }
+  .r-department-part .depart-ul ul .right {
+    padding-top: 8px;
+  }
+  .r-department-part .depart-ul ul .right.available {
+    padding-top: 8px;
+  }
+  .editTalentView {
+    padding: 35px 40px;
+    right: 262px;
+    width: 775px;
+  }
+  .request_talent textarea.form-control {
+    min-height: 150px;
+  }
+  .resume_info_top {
+    padding-bottom: 50px;
+  }
+  .user_resume h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .user_resume ul li {
+    font-size: 12px;
+    line-height: 22px;
+    padding-left: 30px;
+  }
+  .user_resume ul {
+    margin-bottom: 20px;
+  }
+  .col-md-12.resume_speciality {
+    margin-top: -40px;
+  }
+  .user_resume ul li::before {
+    width: 18px;
+    top: 11px;
+  }
+  .resume_Worked_Projects h3 {
+    font-size: 16px;
+  }
+  .resume_Worked_item p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .resume_Worked_item {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .Cal_cost_overlay {
+    display: block;
+  }
+  /* #r_view_ur_team .fixedSidebar {
+                overflow: inherit;
+                height: calc(100% - 160px);
+            } */
+  .department-profile .slick-slider .slick-list .slick-slide {
+    width: auto !important;
+  }
+  /* bug fix */
+  .resume-part-flex .removeTeam {
+    display: grid;
+    align-items: center;
+    line-height: 15px;
+  }
+  .Cal_cost_overlay {
+    width: calc(100% - 276px);
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .depart-ul .item_serch {
+    left: 36.3%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1100px) {
+  .depart-ul .item_serch {
+    left: 40.3%;
+  }
+}

@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------
+    CREATE YOUR TEAM PART START
+--------------------------------------------------------------------------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+.clr {
+    clear: both;
+}
+.mr-0 {
+    margin-right: 0!important;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+:focus{
+    outline: none;
+    box-shadow: none !important;
+}
+
+a:focus{
+    box-shadow: none !important;
+}
+
+button:focus{
+    box-shadow: none !important;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+}
+
+
+
+/* --------------- COMMOUN SIZE  --------------*/
+
+p{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #666666;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    transition: all linear .2s;
+}
+a:hover{
+    color: #F48039;
+}
+
+.btn:hover {
+    color: #F48039;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------
+    LOGIN PAGE START
+--------------------------------------------------------------------------------------------------------------- */
+
+
+
+#login{
+    background: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+#login .col-lg-4{
+    padding: 0;
+}
+
+
+.logo {
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.login-text .form-group label{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+}
+
+.login-text .form-group input{
+    background: #F7F7F7;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 20px;
+    height: 49px;
+    
+}
+
+.login-text .form-group input::placeholder{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #BBBBBB;
+}
+
+.login-text .btn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #F48039;
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 50px;
+}
+
+.login-text p{
+    padding-top: 35px;
+    text-align: center;
+}
+
+.login-footer {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.login-footer .f-logo{
+    padding-bottom: 28px;
+}
+
+.login-footer span{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+
+/* ------------------------------------------------------------------------------------------------------------
+    LOGIN PAGE END
+--------------------------------------------------------------------------------------------------------------- */

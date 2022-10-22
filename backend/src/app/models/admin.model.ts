@@ -10,6 +10,23 @@ const Admin = function() {
 
 Admin.create = async(type:any,data:Response, result: (arg0: any, arg1: any) => void ) => {
 
+  let res = await MongoDb.doRequest("shop", "tags")
+  let x = { ...data }
+  
+  
+  res.insertOne(x , function name(error:Response, response:Response) {
+    if (error) {
+      result(null, error);
+    } else{
+      result(0, true);
+    }
+  })
+  
+};
+
+
+Admin.createStore = async(type:any,data:Response, result: (arg0: any, arg1: any) => void ) => {
+
   let table = ""
   if(type == "variant"){
     table = "variant"
@@ -27,6 +44,7 @@ Admin.create = async(type:any,data:Response, result: (arg0: any, arg1: any) => v
   })
   
 };
+
 
 Admin.findById = async(type:any ,id:Response, result:(arg0: any, arg1: any) => void) => {
 
@@ -47,6 +65,36 @@ Admin.findById = async(type:any ,id:Response, result:(arg0: any, arg1: any) => v
   });
 };
 
+Admin.findByIdTag = async(type:any ,id:Response, result:(arg0: any, arg1: any) => void) => {
+
+  let res = await MongoDb.doRequest("shop", "tags")
+  res.find({ _id: ObjectId(id)  }).toArray(function (error:Response, resolve:any) {
+      if (error) {
+        result(1, error);
+        return;
+      }
+      result(0, resolve);
+  });
+};
+
+Admin.getAllTags = async (type:string , result:(arg0: any, arg1: any) => void) => {
+  let table = ""
+  if(type == "variant"){
+    table = "variant"
+  }else{
+    table = "products"
+  }
+  let res = await MongoDb.doRequest("shop", "tags")
+  res.find().toArray(function (error:any, resolve:any) {
+      if (error) {
+        result(null, error);
+        return;
+      }
+
+      result(null, resolve);
+  });
+};
+
 Admin.getAll = async (type:string , result:(arg0: any, arg1: any) => void) => {
   let table = ""
   if(type == "variant"){
@@ -63,6 +111,35 @@ Admin.getAll = async (type:string , result:(arg0: any, arg1: any) => void) => {
 
       result(null, resolve);
   });
+};
+
+
+Admin.updateByIdTag = async(type:string , id:number, data: {} | [] , result:(arg0: any, arg1: any) => void    ) => {
+
+  let table = ""
+  if(type == "variant"){
+    table = "variant"
+  }else{
+    table = "products"
+  }
+
+  var Item = {_id : ObjectId(id)  } 
+
+  let updateData = {
+    $set : data
+  }
+
+  console.log("updateData" , updateData);
+  
+
+  let res = await MongoDb.doRequest("shop", "tags")
+  res.updateOne(Item , updateData , function name(error:any, response:{} | []) {
+    if (error) {
+      result(null, error);
+    } else{
+      result(null, true);
+    }
+  })
 };
 
 
@@ -111,7 +188,25 @@ Admin.change_order = async(data: any , result:(arg0: any, arg1: any) => void    
   })
 };
 
+Admin.removeTag = async(type:string , id:number, result:(arg0: any, arg1: any) => void ) => {
 
+  let res = await MongoDb.doRequest("shop", type)
+
+  
+  
+
+  var deleteItem = {_id : ObjectId(id)  } 
+    res.deleteOne(deleteItem , function name(error:any, response: any ) {
+        if (error) {
+          result(null, error);
+        } else if(response.deletedCount==1) {
+          result(null, response);
+        }else{
+          result({ kind: "not_found" }, null);
+        }
+    })
+
+};
 
 
 Admin.remove = async(type:string , id:number, result:(arg0: any, arg1: any) => void ) => {
