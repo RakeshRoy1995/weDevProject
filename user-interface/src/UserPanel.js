@@ -8,6 +8,7 @@ import Navbar from './common/Navbar';
 import axios from 'axios';
 import { AppURL } from './Constant';
 import cogoToast from 'cogo-toast';
+import Select from 'react-select'
 
 function UserPanel() {
   const [data, setdata] = useState([]);
@@ -36,11 +37,8 @@ function UserPanel() {
   const fetchData_2 = async()=>{
     axios.get('all-tags')
         .then(function (response) {
-          setdataTag(response.data)
 
           let data = []
-
-
           for (let index = 0; index < response.data.length; index++) {
             const element = {};
             element.value = response.data[index].tag
@@ -49,9 +47,7 @@ function UserPanel() {
             data.push(element)
             
           }
-
-          console.log("data" , data);
-
+          setdataTag(data)
 
         })
         .catch(function (error) {
@@ -76,15 +72,14 @@ function UserPanel() {
         <div className="container">
 
         <Select
-          defaultValue={[colourOptions[2], colourOptions[3]]}
+          value={[]}
           isMulti
           name="colors"
-          options={colourOptions}
+          options={dataTag}
           className="basic-multi-select"
           classNamePrefix="select"
         />
 
-        <input onChange={(e)=> serach(e.target.value) } className='form-control' style={{width: "200px"}} />
         <br />
           <div className="row">
 
