@@ -16,27 +16,21 @@ function UserPanel() {
   const [dataTag, setdataTag] = useState([]);
   const [dataTagSelected, setdataTagSelected] = useState([]);
   
-  console.log("data" , data);
-  console.log("dataTag" , dataTag);
-  
   const serach = (v)=>{
     setdataTagSelected(v)
+    setdataS([])
 
-    const result = data.filter(d =>
+    let result =[]
+    let result_2 =[]
+
+    result = data.filter(d =>
       v.map((datas,k)=>{
         if (d.tags.includes(datas.value)) {
-
-          console.log("---" , d);
-          return d
+          result_2.push(d)
         }
       })
     )
-
-    console.log(" -     - " , result);
-
-    // setdataS(result)
-
-    
+    setdataS(result_2)
 
   }
 
@@ -87,7 +81,7 @@ function UserPanel() {
           value={dataTagSelected}
           isMulti
           name="colors"
-          options={dataTag}
+          options={ dataS.length > 0 ? dataS : dataTag}
           className="basic-multi-select"
           classNamePrefix="select"
           onChange={(e)=>serach(e) }
