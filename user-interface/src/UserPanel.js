@@ -120,9 +120,6 @@ function UserPanel() {
                 )
                 }
 
-
-
-
               </>
               
             }
@@ -132,31 +129,28 @@ function UserPanel() {
               dataS.length == 0 && 
 
               <>
-              
-              
-              
 
             {
               data.map((d,k)=>
               
-            <>
-              <div className="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
-                <div className="card">
-                <img
-                      src={AppURL + 'static/' + d.image } 
-                      className="card-img-top"
-                      width="100%"
-                    />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      <a href={d.url}>{d.name}</a>
-                    </h5>
+              <>
+                <div className="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                  <div className="card">
+                  <img
+                        src={AppURL + 'static/' + d.image } 
+                        className="card-img-top"
+                        width="100%"
+                      />
+                    <div className="card-body">
+                      <h5 className="card-title">
+                        <a href={d.url}>{d.name}</a>
+                      </h5>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <br />
-            </>
+                <br />
+              </>
 
              )
             }
