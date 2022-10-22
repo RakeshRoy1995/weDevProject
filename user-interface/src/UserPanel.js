@@ -81,7 +81,7 @@ function UserPanel() {
           value={dataTagSelected}
           isMulti
           name="colors"
-          options={ dataS.length > 0 ? dataS : dataTag}
+          options={dataTag}
           className="basic-multi-select"
           classNamePrefix="select"
           onChange={(e)=>serach(e) }
@@ -91,9 +91,55 @@ function UserPanel() {
           <div className="row">
 
             {
+              dataS.length > 0 && 
+
+              <>
+              
+              {
+              dataS.map((d,k)=>
+              
+                <>
+                  <div className="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div className="card">
+                    <img
+                          src={AppURL + 'static/' + d.image } 
+                          className="card-img-top"
+                          width="100%"
+                        />
+                      <div className="card-body">
+                        <h5 className="card-title">
+                          <a href={d.url}>{d.name}</a>
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <br />
+                </>
+
+                )
+                }
+
+
+
+
+              </>
+              
+            }
+
+
+            {
+              dataS.length == 0 && 
+
+              <>
+              
+              
+              
+
+            {
               data.map((d,k)=>
               
-          <>
+            <>
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div className="card">
                 <img
@@ -113,6 +159,9 @@ function UserPanel() {
             </>
 
              )
+            }
+
+</>
             }
           </div>
         </div>
