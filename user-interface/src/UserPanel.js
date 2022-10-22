@@ -12,20 +12,37 @@ import Select from 'react-select'
 
 function UserPanel() {
   const [data, setdata] = useState([]);
+  const [dataS, setdataS] = useState([]);
   const [dataTag, setdataTag] = useState([]);
+  const [dataTagSelected, setdataTagSelected] = useState([]);
   
   console.log("data" , data);
   console.log("dataTag" , dataTag);
   
   const serach = (v)=>{
-    console.log("e", v);
+    setdataTagSelected(v)
+
+    const result = data.filter(d =>
+      v.map((datas,k)=>{
+        if (d.tags.includes(datas.value)) {
+
+          console.log("---" , d);
+          return d
+        }
+      })
+    )
+
+    console.log(" -     - " , result);
+
+    // setdataS(result)
+
+    
+
   }
 
   const fetchData = async()=>{
       axios.get('get-all-shop')
           .then(function (response) {
-
-              console.log("response" , response);
               setdata(response.data)
               fetchData_2()
           })
@@ -43,7 +60,6 @@ function UserPanel() {
             const element = {};
             element.value = response.data[index].tag
             element.label = response.data[index].tag
-
             data.push(element)
             
           }
@@ -63,21 +79,18 @@ function UserPanel() {
     <>
     <Navbar />
     
-    
-
-
-
     <>
       <section className="more-services section-bg">
         <div className="container">
 
         <Select
-          value={[]}
+          value={dataTagSelected}
           isMulti
           name="colors"
           options={dataTag}
           className="basic-multi-select"
           classNamePrefix="select"
+          onChange={(e)=>serach(e) }
         />
 
         <br />
@@ -86,25 +99,23 @@ function UserPanel() {
             {
               data.map((d,k)=>
               
-              
-              
           <>
-            <div className="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
-              <div className="card">
-              <img
-                    src={AppURL + 'static/' + d.image } 
-                    className="card-img-top"
-                    width="100%"
-                  />
-                <div className="card-body">
-                  <h5 className="card-title">
-                    <a href={d.url}>{d.name}</a>
-                  </h5>
+              <div className="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div className="card">
+                <img
+                      src={AppURL + 'static/' + d.image } 
+                      className="card-img-top"
+                      width="100%"
+                    />
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <a href={d.url}>{d.name}</a>
+                    </h5>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <br />
+              <br />
             </>
 
              )
